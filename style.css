@@ -126,6 +126,7 @@ footer {
     margin-right: auto;
     border-radius: 8px; /* कुना अलिकति गोलो बनाउन (ऐच्छिक) */
 }
+
 /* Container */
 .banner-container {
   display: flex;
