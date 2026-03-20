@@ -145,7 +145,7 @@ footer {
   animation: 
     rgbGlow 3s linear infinite,
     shake 0.6s infinite,
-    showHide 8s infinite;
+    
 }
 
 /* RGB Glow Animation */
