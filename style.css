@@ -157,4 +157,21 @@ footer {
   100% { box-shadow: 0 0 20px red; }
 }
 
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;  /* Important for <a> */
+  color: white;
+  background: #1a1a1a;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: orange;
+  color: black;
+  transform: translateY(-5px);
+}
 
