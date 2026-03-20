@@ -11,4 +11,6 @@ I want to order:
 📍 Location: Pokhara`;
 
   let url = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
-window.location.href = url;
+
+  window.location.href = url;
+}
