@@ -119,7 +119,7 @@ footer {
 }
 
 .center-banner {
-    max-width: 70%;    /* मोबाइलमा बाहिर जाँदैन */
+    max-width: 100%;    /* मोबाइलमा बाहिर जाँदैन */
     height: auto;       /* फोटोको आकार बिग्रिन दिँदैन */
     display: block;
     margin-left: auto;
@@ -158,45 +158,3 @@ footer {
 }
 
 
-/* Show / Hide Image (5 sec visible, then hide) */
-@keyframes showHide {
-  0%, 60% { opacity: 1; }
-  70%, 100% { opacity: 0; }
-}
-
-/* TEXT */
-.scroll-text {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  opacity: 0;
-
-  animation: textPop 8s infinite;
-}
-
-/* Text Animation */
-@keyframes textPop {
-  0%, 65% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-
-  70% {
-    opacity: 1;
-    transform: scale(1.3);
-  }
-
-  75% {
-    transform: scale(1);
-  }
-
-  80%, 90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-}
