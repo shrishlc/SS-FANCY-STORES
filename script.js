@@ -1,5 +1,5 @@
 function orderWhatsApp(name, price, image) {
-  let phone = "977 9862238571";
+  let phone = "9779862238571";
 
   let message = `Hello SS Fancy Store 👋
 I want to order:
